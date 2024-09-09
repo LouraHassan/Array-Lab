@@ -35,7 +35,7 @@ console.log("multiplication : ", multiplication)
 // 9
 for(let i =0; i <numbers.length; i++){
     if(numbers[i] > 5){
-        console.log(i)
+        console.log("index",i)
         break;
     }
 }
@@ -85,3 +85,28 @@ if(words[i] == "javascript"){
 console.log("javascript is not found")
 }
 
+
+// function lab
+
+function sum(a, b){
+    return a + b
+}
+function subtract(a,b){
+    return a - b
+}
+function multiply(a,b){
+    return a * b
+}
+function division(a,b){
+    return a / b
+}
+
+function remainder(a , b){
+    return a%b
+}
+
+console.log("Sumation Function for 2 + 5 : ",sum(2,5))
+console.log("Subtraction Function for 10 + 3 : ",subtract(10,3))
+console.log("Multiplication Function for 12 x 2 : ",multiply(12,2))
+console.log("Division Function for 28 / 4 : ",division(28,4))
+console.log("Remainder Function for 38 / 6 : ",remainder(38,6))
