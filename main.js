@@ -6,7 +6,7 @@ console.log(numbers)
 let assending = numbers.sort((a,b) => {return a-b})
  console.log(assending)
 
- // 2 *
+ // 2 
 
  let square = [];
 for (let i = 0; i < numbers.length; i++) {
@@ -14,11 +14,8 @@ for (let i = 0; i < numbers.length; i++) {
   }
  console.log(square)
 
-//  ------------
-// **********
-
 // 3
-console.log(numbers.find((number) => number > 25))
+console.log(numbers.find((number) => number > 25 ))
 // 4
 console.log(numbers.map((number) => number> 5))
 // 5
