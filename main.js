@@ -8,12 +8,15 @@ let assending = numbers.sort((a,b) => {return a-b})
 
  // 2 *
 
- let square = numbers.map(item => { item^2})
+ let square = [];
+for (let i = 0; i < numbers.length; i++) {
+    square.push(numbers[i] * numbers[i]);
+  }
+ console.log(square)
 
 //  ------------
 // **********
 
-console.log(square)
 // 3
 console.log(numbers.find((number) => number > 25))
 // 4
